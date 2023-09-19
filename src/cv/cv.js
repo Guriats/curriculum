@@ -1,5 +1,5 @@
 
-const cv = {
+export const cv = {
   hero: {
     name: "Anthony",
     surname: "Edward Stark",
@@ -88,4 +88,3 @@ const cv = {
 };
 
 
-export default cv;
