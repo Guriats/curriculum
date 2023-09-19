@@ -1,11 +1,11 @@
-import "./Hero.css"
+import "./Hero.css";
 
 const Hero = () => {
   return (
     <div>
-      <h3>hola</h3>
+      <h3>Hero</h3>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

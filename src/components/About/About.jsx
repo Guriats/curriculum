@@ -1,14 +1,12 @@
-import "./About.css"
 
+import "./About.css";
 
-const About =()=>{
+const About = () => {
+  return (
+    <div>
+      <h3>About</h3>
+    </div>
+  );
+};
 
-    
-        return (
-            <h3>hola</h3>
-          );
-     
-
-}
-
-export default About; 
+export default About;

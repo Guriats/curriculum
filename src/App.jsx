@@ -1,27 +1,21 @@
+import "./App.css";
 
-import './App.css'
-
-import "./components/About/About"
-import "./components/Education/Education"
-import "./components/Experience/Experience"
-import "./components/Hero/Hero"
-import "./components/More/More"
-import "./components/Main/Main"
-
+import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
+import Education from "./components/Education/Education";
+import Experience from "./components/Experience/Experience";
+import More from "./components/More/More";
 
 const App = () => {
-
-
   return (
     <>
-      <About/>
-      <Education/>
-      <Experience/>
-      <Hero/>
-      <More/>
-      <Main/>
+      <Hero />
+      <About />
+      <Education />
+      <Experience />
+      <More />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
