@@ -7,6 +7,8 @@ export const CV = {
     birthDate: "29/05/1970",
     image: "https://i.imgur.com/ZQAkED3.png",
     gitHub: "https://github.com/tonystark",
+    
+
     aboutMe: [
       {
         info: "🤖 My armor, it was never a distraction or a hobby, it was a cocoon. I am Iron Man.",
@@ -22,6 +24,8 @@ export const CV = {
       },
     ],
   },
+
+
   education: [
     {
       name: "Master in physics",
@@ -39,6 +43,8 @@ export const CV = {
       where: "Firearm Collegue, Queens",
     },
   ],
+
+
   experience: [
     {
       name: "Consultant",
@@ -55,11 +61,15 @@ export const CV = {
         "Manage the company, which is a multi-billion dollar multinational corporation that develops and manufactures advanced weapon and defense technologies. The company manufactures the armor worn by Iron Man and War Machine.",
     },
   ],
+
+
   languages: {
     language: "English",
     wrlevel: "Native",
     splevel: "Native",
   },
+
+
   habilities: [
     "Robotics",
     "Robot Programming",
@@ -70,6 +80,8 @@ export const CV = {
     "Dating",
     "Saving the world",
   ],
+
+
   volunteer: [
     {
       name: "September Foundation",

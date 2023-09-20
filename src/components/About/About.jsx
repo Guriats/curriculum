@@ -2,7 +2,7 @@ import "./About.css";
 
 const About = ({ hero }) => {
   return (
-    <div>
+    <div className="aboutMe">
       {hero.aboutMe.map((item) => (
         <p key={item.info}>{item.info}</p>
       ))}

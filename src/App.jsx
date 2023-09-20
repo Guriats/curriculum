@@ -16,8 +16,10 @@ const App = () => {
     <div className="App">
       <Hero hero={hero} />
       <About hero={hero} />
-      <button onClick={() => setShowEducation(true)}>Education</button>
-      <button onClick={() => setShowEducation(false)}>Experience</button>
+      <div className="btn">
+        <button onClick={() => setShowEducation(true)}>Education</button>
+        <button onClick={() => setShowEducation(false)}>Experience</button>
+      </div>
       {showEducation ? (
         <Education education={education} />
       ) : (
