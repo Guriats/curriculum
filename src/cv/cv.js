@@ -1,5 +1,4 @@
-
-export const cv = {
+export const CV = {
   hero: {
     name: "Anthony",
     surname: "Edward Stark",
@@ -8,8 +7,6 @@ export const cv = {
     birthDate: "29/05/1970",
     image: "https://i.imgur.com/ZQAkED3.png",
     gitHub: "https://github.com/tonystark",
-
-
     aboutMe: [
       {
         info: "🤖 My armor, it was never a distraction or a hobby, it was a cocoon. I am Iron Man.",
@@ -25,8 +22,6 @@ export const cv = {
       },
     ],
   },
-
-
   education: [
     {
       name: "Master in physics",
@@ -44,8 +39,6 @@ export const cv = {
       where: "Firearm Collegue, Queens",
     },
   ],
-
-
   experience: [
     {
       name: "Consultant",
@@ -62,8 +55,6 @@ export const cv = {
         "Manage the company, which is a multi-billion dollar multinational corporation that develops and manufactures advanced weapon and defense technologies. The company manufactures the armor worn by Iron Man and War Machine.",
     },
   ],
-
-
   languages: {
     language: "English",
     wrlevel: "Native",
@@ -79,8 +70,6 @@ export const cv = {
     "Dating",
     "Saving the world",
   ],
-
-  
   volunteer: [
     {
       name: "September Foundation",

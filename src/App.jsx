@@ -1,4 +1,5 @@
 import "./App.css";
+import { useState } from "react";
 
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
@@ -6,15 +7,22 @@ import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import More from "./components/More/More";
 
+import {CV} from "./CV/cv"
+const {hero, education, experience, languages, habilities, volunteer} = CV;
+
 const App = () => {
   return (
-    <>
-      <Hero />
-      <About />
-      <Education />
-      <Experience />
-      <More />
-    </>
+<div className="App">
+<Hero hero={hero} />
+<About hero={hero} />
+<Education education={education} />
+<Experience experience={experience} />
+<More
+languages={languages}
+habilities={habilities}
+volunteer={volunteer}
+/>
+</div>
   );
 };
 
