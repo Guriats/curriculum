@@ -1,10 +1,11 @@
-
 import "./About.css";
 
-const About = () => {
+const About = ({ hero }) => {
   return (
     <div>
-      <h3>About</h3>
+      {hero.aboutMe.map((item) => (
+        <p key={item.info}>{item.info}</p>
+      ))}
     </div>
   );
 };

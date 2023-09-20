@@ -1,11 +1,19 @@
-import "./Education.css"
+import "./Education.css";
 
-const Education = () => {
+const Education = ({ education }) => {
   return (
     <div>
-      <h3>Education</h3>
+      <div className="education card">
+        {education.map((item) => (
+          <div key={JSON.stringify(item)}>
+            <p className="name">📕 {item.name}</p>
+            <p>{item.where}</p>
+            <p>{item.date}</p>
+          </div>
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Education
+export default Education;
